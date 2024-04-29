@@ -10,6 +10,9 @@
     font-weight:600;
     transition: 0.2s ease-in-out;
 }
+.login-btn{
+    border:2px solid rgba(25,25,255,0.4);
+}
 .login-div{
     position: fixed;
     left:1460px;
@@ -21,4 +24,27 @@
 }
 .signup-btn:hover{
     letter-spacing: 5px;
+}
+.navbar{
+    list-style-type: none;
+    display:flex;
+}
+.nav-item{
+    flex-basis:25%;
+}
+.nav-link{
+    font-size:30px;
+    text-decoration: none;
+    color:black;
+    transition: 0.25s;
+}
+.nav-link:hover{
+    color:rgba(25,25,255,0.4);
+    font-size: 35px;
+    transform: translateY(-20px);
+}
+.active{
+    color:rgba(25,25,255,0.4);
+    font-size: 35px;
+    transform: translateY(-20px);
 }
